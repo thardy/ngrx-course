@@ -9,7 +9,7 @@ export interface Lesson {
 }
 
 
-export function compareLessons(l1:Lesson, l2: Lesson) {
+export function compareLessons(l1: Lesson, l2: Lesson) {
 
   const compareCourses = l1.courseId - l2.courseId;
 
