@@ -9,7 +9,7 @@ import {CourseActions} from '../action-types';
 //   ids: number[]
 // }
 export interface CoursesState extends EntityState<Course> {
-  allCoursesLoaded: boolean
+  allCoursesLoaded: boolean;
 }
 
 export const adapter = createEntityAdapter<Course>({
